@@ -1,0 +1,110 @@
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: #470ca4;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #3a5a78;
+}
+
+
+.right-section {
+    padding: 20px;
+    background: #28154c;
+}
+
+.profile-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    color: white;
+    margin-top: 60px;
+}
+
+.profile-column, .profile-column1 {
+    background: #4a1d6f;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+
+
+.profile-item {
+    margin-bottom: 15px;
+}
+
+.profile-item1 {
+    margin-bottom: 15px;
+}
+
+
+.profile-item label, .profile-item1 label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+
+.profile-item input, .profile-item1 input {
+    width: 80%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.profile-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.btn-cancel, .btn-save {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn-cancel {
+    background-color: #4a1d6f;
+    color: white;
+}
+
+.btn-save {
+    background-color: #70b2f0;
+    color: white;
+}
+
+.btn-cancel:hover, .btn-save:hover {
+    opacity: 0.9;
+}
+
+
+
+.profile-item img, .profile-item1 img {
+    width: 60px;
+    height: auto;
+    display: block;
+    border-radius: 60px;
+}
+
+.game-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: -2px;
+}
+
+.profile-item1 {
+    flex: 0 1 auto;
+}

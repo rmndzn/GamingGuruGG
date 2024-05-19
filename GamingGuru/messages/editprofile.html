@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Messages</title>
+    <link rel="stylesheet" href="styles/gen.css">
+    <link rel="stylesheet" href="styles/left-bar.css">
+    <link rel="stylesheet" href="styles/right-bar-after.css">
+    <link rel="stylesheet" href="styles/edit.css">
+</head>
+<body>
+    <div class="left-section">
+        <div class="left1">
+            <div class="pf1">
+                <img src="icons/gamingguru.png" id="home-btn" style="cursor: pointer;">
+                <div class="left-line"></div>
+                <div class="tooltip">Home</div>
+            </div>
+            <div class="line"></div>
+            <div class="pf3">
+                <img src="images/valo.png">
+                <div class="left-line"></div>
+                <div class="tooltip">Valorant</div>
+            </div>
+            <div class="pf3">
+                <img src="images/dota.png">
+                <div class="left-line"></div>
+                <div class="tooltip">Dota 2</div>
+            </div>
+            <div class="pf3">
+                <img src="images/lol.jpg">
+                <div class="left-line"></div>
+                <div class="tooltip">League of Legends</div>
+            </div>
+            <div class="pf3">
+                <img src="images/ml.jpg">
+                <div class="left-line"></div>
+                <div class="tooltip">Mobile Legends</div>
+            </div>
+            <div class="pf3">
+                <img src="images/farlight.png">
+                <div class="left-line"></div>
+                <div class="tooltip">Farlight</div>
+            </div>
+
+            <div class="pf5">
+                <img src="images/profile2.jpg">
+                <div class="left-line"></div>
+                <div class="tooltip">ArmanTheGreat</div>
+            </div>
+        </div>
+        <div class="left2">
+            <div class="lupper">
+                <input placeholder="Search" class="rinput"> 
+            </div>
+            <div class="onlinefriends">
+                <button type="button" id="edit-btn">Edit Profile</button>
+                <button type="button" id="invite-btn">Invite a friend</button>
+            </div>
+            <div class="ffooter">
+                <div class="profooter">
+                    <div class="holder">    
+                    </div>
+                </div>
+                <div class="iconsfooter">
+                    <button type="button" id="logout-btn">Logout</button>
+                </div>
+            </div> 
+        </div>
+    </div>
+    <div class="right-section">
+        <div class="profile-grid">
+            <div class="profile-column">
+                <div class="profile-item">
+                    <img src="images/profile2.jpg" alt="User Icon">
+                </div>
+                <div class="profile-item">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username">
+                </div>
+                <div class="profile-item">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email">
+                </div>
+                <div class="profile-item">
+                    <label for="phone">Phone Number:</label>
+                    <input type="text" id="phone">
+                </div>
+                <div class="profile-item">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password">
+                </div>
+                <div class="profile-item">
+                    <label for="confirm-password">Confirm Password:</label>
+                    <input type="password" id="confirm-password">
+                </div>
+                <div class="profile-actions">
+                    <button class="btn-cancel">Cancel</button>
+                    <button class="btn-save">Save Changes</button>
+                </div>
+            </div>
+            <div class="profile-column1">
+                <div class="game-icons">
+                    <div class="profile-item1"><img src="images/valo.png" alt="Valorant Icon"></div>
+                    <div class="profile-item1"><img src="images/dota.png" alt="Dota 2 Icon"></div>
+                    <div class="profile-item1"><img src="images/lol.jpg" alt="League of Legends Icon"></div>
+                    <div class="profile-item1"><img src="images/ml.jpg" alt="Mobile Legends Icon"></div>
+                    <div class="profile-item1"><img src="images/farlight.png" alt="Farlight Icon"></div>
+                </div>
+                <div class="profile-item1">
+                    <label for="game-id">Game ID:</label>
+                    <input type="text" id="game-id">
+                </div>
+                <div class="profile-item1">
+                    <label for="rank">Rank:</label>
+                    <input type="text" id="rank">
+                </div>
+                <div class="profile-item1">
+                    <label for="roles">Roles:</label>
+                    <input type="text" id="roles">
+                </div>
+            </div>
+        </div>
+        </div>
+        <script src="script/Redirect.js"></script>
+        <script src="script/chat-redirect.js"></script>
+</body>
+</html>
